@@ -14,6 +14,7 @@ git clone https://github.com/invinc1ble7/Bedrock-Server && chmod +x Bedrock-Serv
 #### Because the Bedrock Server only works with x86_64 architecture, we need to download Box64 to run the server.
 ```shell
 cp Bedrock-Server/box64.sh ../usr/var/lib/proot-distro/installed-rootfs/ubuntu-lts/root
+
 ```
 #### After that type ```ubuntu``` in order to enter Ubuntu and enter this command, it will install Box64.
 ```shell
@@ -25,3 +26,4 @@ mkdir Minecraft && cd Minecraft
 wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.81.01.zip # Current Minecraft version is 1.20.81.01
 unzip bedrock-server*.zip && rm -rf bedrock-server*.zip
 ```
+#### Now, let's start the server with ```minecraft```.
