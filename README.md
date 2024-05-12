@@ -21,5 +21,7 @@ chmod +x box64.sh && ./box64.sh
 ```
 #### After this we can download the current bedrock server from the [Minecraft Bedrock Server Download](https://www.minecraft.net/en-us/download/server/bedrock). Install the Minecraft Dedicated Server Software for Ubuntu (Linux). For that copy the URL from the Download website and go to your Ubuntu terminal.
 ```
+mkdir Minecraft && cd Minecraft
 wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.81.01.zip # Current Minecraft version is 1.20.81.01
+unzip bedrock-server*.zip && rm -rf bedrock-server*.zip
 ```
