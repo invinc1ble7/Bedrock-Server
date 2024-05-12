@@ -12,7 +12,7 @@ git clone https://github.com/invinc1ble7/Bedrock-Server && chmod +x Bedrock-Serv
 ```
 ### Now we will start the process of installing the Bedrock Server.
 #### Because the Bedrock Server only works with x86_64 architecture, we downloaded Box64 to run the Bedrock Server. Also, we added the command ```minecraft``` in order to start the Bedrock Server easily. Now enter ```ubuntu``` in order to start Ubuntu.
-#### After this we can download the current bedrock server from the [Minecraft Bedrock Server Download](https://www.minecraft.net/en-us/download/server/bedrock). Install the Minecraft Dedicated Server Software for Ubuntu (Linux). For that copy the URL from the Download website and go to your Ubuntu terminal.
+#### After this we can download the current bedrock server from the [Minecraft Bedrock Server Download](https://www.minecraft.net/en-us/download/server/bedrock). Install the Minecraft Dedicated Server Software for Ubuntu (Linux). For that, copy the URL from the Download website and go to your Ubuntu terminal.
 ```
 mkdir Minecraft && cd Minecraft
 wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.81.01.zip # Current Minecraft version is 1.20.81.01
