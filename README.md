@@ -19,7 +19,7 @@ apt install gpg wget curl
 ***
 ### Now we will start the process of installing the Bedrock Server.
 
-#### Because the Bedrock Server only works with x86_64 architecture, we need to download Box64, to run that program
+#### Because the Bedrock Server only works with x86_64 architecture, we need to download Box64, to run the server
 ```shell
 wget https://ryanfortner.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list
 wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/box64-debs-archive-keyring.gpg
