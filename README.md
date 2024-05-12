@@ -19,6 +19,6 @@ chmod +x box64.sh && ./box64.sh && chmod +x /usr/bin/minecraft
 ```
 mkdir Minecraft && cd Minecraft
 wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.81.01.zip # Current Minecraft version is 1.20.81.01
-unzip bedrock-server*.zip && rm -rf bedrock-server*.zip
+unzip bedrock-server*.zip && rm -rf bedrock-server*.zip && cd ~
 ```
 ### Now, let's start the server with ```minecraft```
