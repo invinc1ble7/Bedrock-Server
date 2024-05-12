@@ -3,8 +3,8 @@
 ### First of all because we intend to create this server in Termux, so we need to download Ubuntu in Termux.
 #### Before that we need to download git in order to clone this repository.
 ```shell
-pkg update && pkg upgrade
-pkg install git
+pkg update -y && pkg upgrade -y
+pkg install git -y
 ```
 #### Then install Ubuntu in Termux.
 ```shell
