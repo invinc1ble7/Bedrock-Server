@@ -9,5 +9,5 @@ pkg install git
 ```
 #### Then install Ubuntu in Termux
 ```shell
-git clone https://github.com/invinc1ble7/Bedrock-Server && chmod +x Bedrock-Server/ubuntu.sh ./Bedrock-Server/ubuntu.sh
+git clone https://github.com/invinc1ble7/Bedrock-Server && chmod +x Bedrock-Server/ubuntu.sh && ./Bedrock-Server/ubuntu.sh
 ```
