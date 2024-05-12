@@ -17,7 +17,7 @@ cp Bedrock-Server/box64.sh ../usr/var/lib/proot-distro/installed-rootfs/ubuntu-l
 ```
 #### After that type ```ubuntu``` in order to enter Ubuntu and enter this command, it will install Box64.
 ```shell
-chmod +x Bedrock-Server/box64.sh && ./Bedrock-Server/box64.sh
+chmod +x box64.sh && ./box64.sh
 ```
 #### After this we can download the current bedrock server from the [Minecraft Bedrock Server Download](https://www.minecraft.net/en-us/download/server/bedrock). Install the Minecraft Dedicated Server Software for Ubuntu (Linux). For that copy the URL from the Download website and go to your Ubuntu terminal.
 ```
