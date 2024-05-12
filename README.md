@@ -30,7 +30,7 @@ sudo apt update -y
 sudo apt install box64-android -y
 ```
 
-#### After this we can download the current bedrock server from [Minecraft Bedrock Server Download](https://www.minecraft.net/en-us/download/server/bedrock). Install the Minecraft dedicated server software for Ubuntu (Linux). For that copy the URL from the Download website and go to your Ubuntu terminal.
+#### After this we can download the current bedrock server from the [Minecraft Bedrock Server Download](https://www.minecraft.net/en-us/download/server/bedrock). Install the Minecraft Dedicated Server Software for Ubuntu (Linux). For that copy the URL from the Download website and go to your Ubuntu terminal.
 ```
 wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.81.01.zip # Current Minecraft version is 1.20.81.01
 ```
