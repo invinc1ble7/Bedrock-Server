@@ -23,11 +23,11 @@ apt install gpg wget curl
 ```shell
 wget https://ryanfortner.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list
 wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/box64-debs-archive-keyring.gpg
-sudo apt-get install -y ca-certificates
-sudo cp local-ca.crt /usr/local/share/ca-certificates
-sudo update-ca-certificates
-sudo apt update -y
-sudo apt install box64-android -y
+apt-get install -y ca-certificates
+cp local-ca.crt /usr/local/share/ca-certificates
+update-ca-certificates
+apt update -y
+apt install box64-android -y
 ```
 
 #### After this we can download the current bedrock server from the [Minecraft Bedrock Server Download](https://www.minecraft.net/en-us/download/server/bedrock). Install the Minecraft Dedicated Server Software for Ubuntu (Linux). For that copy the URL from the Download website and go to your Ubuntu terminal.
