@@ -1,6 +1,6 @@
 # Bedrock-Server
 ***
-### First of all because we intend to create this server in Termux, we need to download Ubuntu in Termux.
+### First of all because we intend to create this server in Termux, so we need to download Ubuntu in Termux.
 
 #### Before that we need to download git in order to clone this repository.
 ```shell
