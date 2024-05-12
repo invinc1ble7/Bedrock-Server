@@ -21,4 +21,4 @@ mkdir Minecraft && cd Minecraft
 wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.81.01.zip # Current Minecraft version is 1.20.81.01
 unzip bedrock-server*.zip && rm -rf bedrock-server*.zip
 ```
-### Now, let's allow it to be an executable start the server with ```minecraft```.
+### Now, let's start the server with ```minecraft```.
